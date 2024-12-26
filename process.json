@@ -1,0 +1,9 @@
+{
+    "apps": [
+      {
+        "name": "Youtube LLM",
+        "script": "./.env/bin/python3 -m streamlit run app2.py --server.port 5000"
+      }
+    ]
+  }
+  

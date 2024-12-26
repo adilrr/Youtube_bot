@@ -1,0 +1,12 @@
+python3 -m venv .env
+
+pip3 install -r requirements.txt
+
+sudo apt install ffmpeg
+
+
+streamlit run app2.py
+
+streamlit run app2.py --server.port 5000
+
+ssh -L 5901:localhost:5901 -i key.pem username@ip_address
